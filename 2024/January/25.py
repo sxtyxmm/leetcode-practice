@@ -1,12 +1,17 @@
 # Intuition
-##The problem requires finding the length of the longest common subsequence between two given strings. A dynamic programming approach is suitable for solving this problem, where the goal is to build a 2D array to store the lengths of common subsequences.
+# The problem requires finding the length of the longest common subsequence between two given strings.
+# A dynamic programming approach is suitable for solving this problem, where the goal is to build a 2D 
+# array to store the lengths of common subsequences.
 
 # Approach
-##The provided code implements an optimized dynamic programming approach to find the length of the longest common subsequence. It uses a 1D array (`dp`) to store the lengths of common subsequences, reducing space complexity to O(min(m, n)). The algorithm iterates through the characters of both strings, updating the `dp` array based on whether the characters match or not.
+# The provided code implements an optimized dynamic programming approach to find the length of the longest
+# common subsequence. It uses a 1D array (`dp`) to store the lengths of common subsequences, 
+# reducing space complexity to O(min(m, n)). The algorithm iterates through the characters of both strings, 
+# updating the `dp` array based on whether the characters match or not.
 
 # Complexity
-##- Time complexity: O(m * n), where m and n are the lengths of the input strings.
-##- Space complexity: O(min(m, n)), as the algorithm uses a 1D array of size n+1.
+# - Time complexity: O(m * n), where m and n are the lengths of the input strings.
+# - Space complexity: O(min(m, n)), as the algorithm uses a 1D array of size n+1.
 
 # Code
 class Solution:

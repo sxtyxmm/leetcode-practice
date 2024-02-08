@@ -1,5 +1,6 @@
-# Intuition
-The problem appears to be focused on finding the minimum number of perfect square numbers that sum up to a given integer 'n'. The dynamic programming approach is evident from the use of a 1D array (dp) to store intermediate results. 
+## Intuition
+#The problem appears to be focused on finding the minimum number of perfect square numbers that sum up to a given 
+#integer 'n'. The dynamic programming approach is evident from the use of a 1D array (dp) to store intermediate results. 
 
 # # Approach
 # The provided solution employs dynamic programming to iteratively build the minimum number of perfect squares
